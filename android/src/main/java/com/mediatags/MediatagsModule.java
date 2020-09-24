@@ -63,7 +63,7 @@ public class MediatagsModule extends ReactContextBaseJavaModule {
 
                 byte[] audioAlbumArtBytes = retriever.getEmbeddedPicture();
                 if (audioAlbumArtBytes == null) {
-                    callback.invoke(null);
+                    callback.invoke(0);
                     return;
                 }
 
@@ -71,10 +71,10 @@ public class MediatagsModule extends ReactContextBaseJavaModule {
 
                 callback.invoke(base64);
             } catch (Exception e) {
-                callback.invoke(null);
+                callback.invoke(0);
             }
         } else {
-            callback.invoke(null);
+            callback.invoke(0);
         }
     }
 }
