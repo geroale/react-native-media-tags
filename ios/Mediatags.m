@@ -2,7 +2,7 @@
 #import "ArtworkImageData.h"
 #import <AVFoundation/AVFoundation.h>
 #import <React/RCTUIManager.h>
-#import <TagLibSwift/TLAudio.h>
+#import <TagLibIOS/TLAudio.h>
 
 @implementation Mediatags
 

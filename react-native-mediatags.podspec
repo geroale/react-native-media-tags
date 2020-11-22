@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "React"
-  s.dependency 'TagLibSwift'
+  s.dependency 'TagLibIOS'
 end
 

@@ -1,6 +1,6 @@
 #import "ArtworkImageData.h"
 #import <AVFoundation/AVFoundation.h>
-#import <TagLibSwift/TLAudio.h>
+#import <TagLibIOS/TLAudio.h>
 
 @implementation ArtworkImageData
 
